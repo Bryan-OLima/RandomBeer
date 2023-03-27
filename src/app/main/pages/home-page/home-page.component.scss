@@ -1,0 +1,27 @@
+@import './../../../../assets/scss/variables.scss';
+:host {
+    // margin-top: 70px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 30px;
+
+    h1 {
+        color: $font-header-color;
+        margin: 20px;
+        text-align: center;
+    }
+
+    footer {
+        color: $font-color;
+        a {
+            color: $font-header-color
+        }
+        a:visited {
+            color: $font-header-color
+        }
+    }
+}

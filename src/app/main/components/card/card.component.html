@@ -1,0 +1,19 @@
+<!-- {{randomBeer | json}} -->
+<h2>
+    {{randomBeer[0]?.name}}
+</h2>
+<h3>
+    {{randomBeer[0]?.tagline}}
+</h3>
+<span class="age">
+    {{randomBeer[0]?.first_brewed}}
+</span>
+<main>
+    <section class="img">
+        <img src="{{randomBeer[0]?.image_url}}" alt="">
+    </section>
+    <section class="description">
+        {{randomBeer[0]?.description}}
+    </section>
+
+</main>
